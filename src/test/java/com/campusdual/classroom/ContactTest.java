@@ -62,7 +62,7 @@ class ContactTest {
     void testContactCodeGenerator() {
         Contact c1 = new Contact("Javier", "López", "654321321");
         assertEquals("jlopez", c1.getCode(), "Contact code not match with expected value");
-        Contact c2 = new Contact("Carlos", "Fernández-Simón", "654321321");
+        Contact c2 = new Contact("Carlos", "Fernández-Simon", "654321321");
         assertEquals("cfernandez-simon", c2.getCode(), "Contact code not match with expected value");
         Contact c3 = new Contact("Jose Manuel", "Soria", "654321321");
         assertEquals("jsoria", c3.getCode(), "Contact code not match with expected value");
